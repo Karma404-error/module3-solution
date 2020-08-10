@@ -4,18 +4,45 @@
     font-size: 16px;
     background-color: darkgray;
     text-shadow: 0px 1px 1px 1px;
-    padding-bottom: 40px;
+    margin: 0px;
 }
-.navbar-brand h1{
+#header-nav .container{
+    margin-left: 0;
+    margin-right: 0;
+}
+.navbar-collapse{
+    padding: 0;
+}
+.navbar-brand{
     color: black;
     font-size: 1.5em;
     text-transform: uppercase;
     font-weight: bold;
     text-shadow: 1px 1px 1px #222;
-    margin-top: 20px;
+    padding-top: 25px;
     margin-left: 15px;
-    margin-bottom: 0;
+    padding-bottom: 50px;
 }
-.navbar-brand a:hover, .navbar-brand a:focus{
-    text-decoration: none;
+
+h1{
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+#body{
+    background-color: gray;
+    color: black;
+}
+#chicken{
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+}
+
+#nav-list{
+    margin: 0px;
+    padding: 0;
+    background-color: greenyellow;
+    color: black;
+    font-weight: bold;
+    width: 100%;
 }
